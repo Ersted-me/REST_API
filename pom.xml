@@ -114,10 +114,10 @@
           <configuration>
 <!--            <configFiles>src/main/resources/flyway/flyway.conf</configFiles>-->
             <driver>com.mysql.cj.jdbc.Driver</driver>
-            <url>jdbc:mysql://eu-cdbr-west-03.cleardb.net/heroku_069d779596c8d2b</url>
-            <user>bad9f01ee0aa18</user>
-            <password>b8138c07</password>
-            <schemas>heroku_069d779596c8d2b</schemas>
+            <url></url>
+            <user></user>
+            <password></password>
+            <schemas></schemas>
             <locations>filesystem:src/main/resources/flyway/sql/migrations</locations>
           </configuration>
         </plugin>
