@@ -20,6 +20,12 @@ public class FilesUtil {
     private static final int fileMaxSize = 100 * 1024;
     private static final int memMaxSize = 100 * 1024;
 
+    static {
+        File directory = new File(PATH);
+
+        if (!directory.exists())
+            directory.mkdir();
+    }
 
     public static List<com.ersted.model.File> loadFile(HttpServletRequest request) {
         List<com.ersted.model.File> files = new ArrayList<>();

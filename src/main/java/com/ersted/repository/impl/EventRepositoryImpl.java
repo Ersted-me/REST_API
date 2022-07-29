@@ -2,7 +2,6 @@ package com.ersted.repository.impl;
 
 import com.ersted.model.Event;
 import com.ersted.model.Status;
-import com.ersted.model.User;
 import com.ersted.repository.EventRepository;
 import com.ersted.util.HibernateUtil;
 import org.hibernate.Session;
